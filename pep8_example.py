@@ -1,13 +1,11 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Maximum of 79 characters per line.
+4 spaces per indentation level. Maximum of 79 characters per line.
 Module and packages names should be short, lower case with underscores.
 """
 
 # Order of imports
-
-from __future__ import barry_as_FLUFL
 
 __all__ = ['Do', 'you', 'love', 'your wife', '?']
 __version__ = '0.1'
