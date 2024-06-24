@@ -52,7 +52,7 @@ class FamilyHarmonySimulator:
                         'naughty': False}
             children['naughty'] = True
 
-    # 1 line space fo in-class funcion
+    # 1 line space fo in-class function
     def send_money_to_wife(self, amount_in_pound):
         """If you love your wife, send as much as money you have.
         """
