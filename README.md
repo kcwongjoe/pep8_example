@@ -22,7 +22,7 @@ FAMILY_HARMONY_DEFAULT_SCORE = 0
 
 
 # top-level function and class definitions with two blank lines
-def send_money_to_wife(family_harmony_score, amount_in_pound):
+def send_money_to_wife(family_harmony_score, amount_in_pound) -> int:
     """Calculate the hoarmony score based on how much money you sent"""
     family_harmony_score = family_harmony_score + (amount_in_pound * 100)
     return family_harmony_score  # at least 2 space before #
@@ -34,8 +34,8 @@ class FamilyHarmonySimulator:
 
     family_harmony_score = 0
 
-    def __init__(self, handsome_husband : bool, husband_like_cooking=False,
-                 man_like_doing_houseworks=False, have_children=False):
+    def __init__(self, handsome_husband: bool, husband_like_cooking=False,
+                 man_like_doing_houseworks=False, have_children: bool = False):
 
         self.family_harmony_score = FAMILY_HARMONY_DEFAULT_SCORE
 
