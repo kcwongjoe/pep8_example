@@ -54,11 +54,11 @@ class FamilyHarmonySimulator:
             children['naughty'] = True
 
     # 1 line space for in-class function
-    def send_money_to_wife(self, amount_in_pound):
+    def i_love_my_wife(self, amount_in_pound):
         """If you love your wife, send as much as money you have.
         """
         self.family_harmony_score = send_money_to_wife(
-            self.family_harmony_score, amount_in_pound)
+            self.family_harmony_score, amount_in_pound=amount_in_pound)
 
 # New line at the end of file
 ```
