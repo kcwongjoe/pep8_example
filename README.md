@@ -1,3 +1,4 @@
+```python
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 """
@@ -73,3 +74,4 @@ class FamilyHarmonySimulator:
             amount_in_pound=amount_in_pound,
         )
 # New line at the end of file
+```
